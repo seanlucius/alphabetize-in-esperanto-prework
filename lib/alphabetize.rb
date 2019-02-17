@@ -1,5 +1,5 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   english = "@-\\"
-  arr.sort_by{
+  arr.sort_by{ |string| string.tr
 end
